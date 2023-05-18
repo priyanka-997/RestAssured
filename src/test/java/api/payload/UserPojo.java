@@ -11,8 +11,7 @@ public class UserPojo {
     String password;
     String phone;
     int userStatus= 0;
-		
-	
+			
     public int getId() {
 		return id;
 	}
