@@ -7,7 +7,6 @@ import static io.restassured.RestAssured.given;
 
 import java.util.ResourceBundle;
 
-
 public class UserEndPoints2 {
 	
 	
