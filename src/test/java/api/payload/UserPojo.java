@@ -3,16 +3,15 @@ package api.payload;
 public class UserPojo {
 	
 	
-	int id;
-	String username;
+    int id;
+    String username;
     String firstName;
     String lastName;
     String email;
     String password;
     String phone;
     int userStatus= 0;
-		
-	
+			
     public int getId() {
 		return id;
 	}
@@ -60,8 +59,6 @@ public class UserPojo {
 	}
 	public void setUserStatus(int userStatus) {
 		this.userStatus = userStatus;
-	}
-	
-	
+	}	
 
 }

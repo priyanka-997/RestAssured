@@ -5,7 +5,6 @@ import io.restassured.response.Response;
 import api.payload.UserPojo;
 import static io.restassured.RestAssured.given;
 
-
 public class UserEndPoints {
 
 	
