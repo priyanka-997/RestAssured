@@ -10,14 +10,12 @@ import java.util.ResourceBundle;
 
 public class UserEndPoints2 {
 	
-	
 	static ResourceBundle getURL(){
 		
 		ResourceBundle routes = ResourceBundle.getBundle("Routes.property");
 		return routes;
 	}
 
-	
 	public static Response createUser(UserPojo payload){
 		
 	String post_url= 	getURL().getString("post_url");
